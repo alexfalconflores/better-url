@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "ES2016" /* Compilación a JavaScript ES2016 */,
+    "lib": [
+      "ES2016",
+      "ESNext",
+      "DOM"
+    ] /* Usa características de ES2016 y ESNext */,
+    "module": "Node16" /* Usa módulos Node16 para compatibilidad con Node.js 16 */,
+    "moduleResolution": "Node16" /* Usa la resolución de módulos de Node.js v16 */,
+    "esModuleInterop": true /* Habilita interoperabilidad con módulos CommonJS */,
+    "skipLibCheck": true /* Omitir la verificación de los archivos de declaración */,
+    "forceConsistentCasingInFileNames": true /* Asegurar consistencia en las mayúsculas/minúsculas en los nombres de archivo */,
+    "strict": true /* Habilitar todas las opciones de verificación estricta */,
+    "resolveJsonModule": true /* Permite importar archivos JSON */,
+    "allowSyntheticDefaultImports": true /* Permite importar por defecto incluso si el módulo no tiene un export por defecto */,
+    "skipDefaultLibCheck": true /* Omitir la comprobación de la librería predeterminada */,
+    "outDir": "./dist" /* Directorio de salida para los archivos compilados */,
+    "declaration": true /* Generar archivos .d.ts */,
+    "declarationMap": true /* Generar mapas de declaración */,
+    "sourceMap": true /* Generar mapas fuente para depuración */,
+    "noEmit": false /* No evitar la generación de archivos de salida */,
+    "resolvePackageJsonExports": true /* Usa el campo `exports` en `package.json` cuando resuelvas importaciones */
+  },
+  "include": ["src/**/*" /* Incluir todos los archivos en la carpeta src */],
+  "exclude": [
+    "node_modules" /* Excluir node_modules */,
+    "dist" /* Excluir el directorio de salida */
+  ]
+}
