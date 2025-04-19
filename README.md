@@ -14,7 +14,7 @@
 ## 🚀 Installation
 
 ```bash
-npm install better-url
+npm install @alexfalconflores/better-url
 ```
 
 ✨ Features
