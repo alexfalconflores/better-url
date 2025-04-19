@@ -1,0 +1,34 @@
+# Node modules
+node_modules/
+
+# Directorio de salida (dist o build)
+dist/
+build/
+
+# Archivos de TypeScript compilados
+*.js
+*.d.ts
+*.map
+
+# Archivos de configuración del editor (pueden ser diferentes dependiendo del editor)
+.vscode/
+.idea/
+
+# Archivos generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Dependencias locales de npm (lockfiles)
+package-lock.json
+yarn.lock
+
+# Archivos temporales y de cache
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.env
+*.tgz
+
+# Otras configuraciones relacionadas con el proyecto
+*.log
+*.tsbuildinfo
