@@ -1,0 +1,51 @@
+{
+  "name": "better-url",
+  "version": "1.0.0",
+  "description": "Extension of the URL object with a fluent API (Fluent API) that allows to build URLs in a chained and readable way.",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexfalconflores/better-url"
+  },
+  "bugs": {
+    "url": "https://github.com/alexfalconflores/better-url/issues"
+  },
+  "homepage": "https://github.com/alexfalconflores/better-url#readme",
+  "keywords": [
+    "better-url",
+    "url",
+    "typescript",
+    "utilities",
+    "query",
+    "builder",
+    "chainable",
+    "node",
+    "frontend",
+    "utility",
+    "fluent-api"
+  ],
+  "author": "Alex Stefano Falcon Flores",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "dev": "tsup src/index.ts --watch --dts",
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.3"
+  }
+}
