@@ -1,9 +1,4 @@
-export class BetterURL<
-  TQueryParams extends Record<
-    string,
-    string | number | boolean | null | undefined
-  >,
-> extends URL {
+export class BetterURL<TQueryParams extends Record<string, any>> extends URL {
   constructor(baseUrl: string) {
     super(baseUrl);
   }

@@ -1,0 +1,4 @@
+- UPDATE VERSION
+- npx tsup
+- npm login
+- npm publish --access public
