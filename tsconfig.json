@@ -6,8 +6,8 @@
       "ESNext",
       "DOM"
     ] /* Usa características de ES2016 y ESNext */,
-    "module": "Node16" /* Usa módulos Node16 para compatibilidad con Node.js 16 */,
-    "moduleResolution": "Node16" /* Usa la resolución de módulos de Node.js v16 */,
+    "module": "NodeNext" /* Usa módulos Node16 para compatibilidad con Node.js 16 */,
+    "moduleResolution": "nodenext" /* Usa la resolución de módulos de Node.js v16 */,
     "esModuleInterop": true /* Habilita interoperabilidad con módulos CommonJS */,
     "skipLibCheck": true /* Omitir la verificación de los archivos de declaración */,
     "forceConsistentCasingInFileNames": true /* Asegurar consistencia en las mayúsculas/minúsculas en los nombres de archivo */,
@@ -20,7 +20,10 @@
     "declarationMap": true /* Generar mapas de declaración */,
     "sourceMap": true /* Generar mapas fuente para depuración */,
     "noEmit": false /* No evitar la generación de archivos de salida */,
-    "resolvePackageJsonExports": true /* Usa el campo `exports` en `package.json` cuando resuelvas importaciones */
+    "resolvePackageJsonExports": true /* Usa el campo `exports` en `package.json` cuando resuelvas importaciones */,
+    "paths": {
+      "better-url": ["./node_modules/better-url"]
+    }
   },
   "include": ["src/**/*" /* Incluir todos los archivos en la carpeta src */],
   "exclude": [
