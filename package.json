@@ -1,5 +1,5 @@
 {
-  "name": "better-url",
+  "name": "@alexfalconflores/better-url",
   "version": "0.1.0",
   "description": "Extension of the URL object with a fluent API (Fluent API) that allows to build URLs in a chained and readable way.",
   "main": "dist/index.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alexfalconflores/better-url"
+    "url": "git+https://github.com/alexfalconflores/better-url.git"
   },
   "bugs": {
     "url": "https://github.com/alexfalconflores/better-url/issues"
