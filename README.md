@@ -1,7 +1,7 @@
 <h1 align="center">
   BetterURL
   <br />
-  <img src="https://raw.githubusercontent.com/alexfalconflores/better-url/main/logo.svg" alt="BetterURL logo" width="150"/>
+  <img src="https://github.com/alexfalconflores/better-url/blob/87e177f3c85b79299b7a6b8bbe3f0a7f342e77e8/logo.svg" alt="BetterURL logo" width="150"/>
 </h1>
 
 <p align="center">
@@ -113,7 +113,7 @@ url.query("search", "hello"); // ✅
 url.query("unknown", "value"); // ❌ Error: 'unknown' no está en Params
 ```
 
-### 🧰 Available methods
+## 🧰 Available methods
 
 | Method               | Description                                         |
 | -------------------- | --------------------------------------------------- |
@@ -128,18 +128,18 @@ url.query("unknown", "value"); // ❌ Error: 'unknown' no está en Params
 | `.clearQuery() `     | Deletes all parameters                              |
 | `.fragment(str)`     | Add or replace a `#fragment`                        |
 
-### 👤 Autor
+## 👤 Autor
 
 Alex Stefano Falcon Flores
 
 - 🐙 GitHub: [alexstefano](https://github.com/alexfalconflores)
 - 💼 LinkedIn: [alexsfalconflores](https://www.linkedin.com/in/alexfalconflores/)
 
-### 📄 License
+## 📄 License
 
 This project is licensed under the MIT license. See the [LICENSE](./LICENSE) file for more details.
 
-### ⭐ Do you like it?
+## ⭐ Do you like it?
 
 Give the repo a star to support the project!
 And if you use it in your projects, I'd love to see it! 🎉
