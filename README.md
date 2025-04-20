@@ -32,7 +32,7 @@ npm install @alexfalconflores/better-url
 ### ⚙️ Create a new instance
 
 ```ts
-import BetterURL from "better-url";
+import BetterURL from "@alexfalconflores/better-url";
 
 type Params = {
   search: string;
