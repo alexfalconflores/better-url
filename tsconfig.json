@@ -4,7 +4,7 @@
     "lib": [
       "ES2016",
       "ESNext",
-      "DOM"
+      "DOM",
     ] /* Usa características de ES2016 y ESNext */,
     "module": "NodeNext" /* Usa módulos Node16 para compatibilidad con Node.js 16 */,
     "moduleResolution": "nodenext" /* Usa la resolución de módulos de Node.js v16 */,
@@ -22,12 +22,13 @@
     "noEmit": false /* No evitar la generación de archivos de salida */,
     "resolvePackageJsonExports": true /* Usa el campo `exports` en `package.json` cuando resuelvas importaciones */,
     "paths": {
-      "better-url": ["./node_modules/better-url"]
-    }
+      "better-url": ["./node_modules/better-url"],
+    },
+    "types": ["bun"],
   },
   "include": ["src/**/*" /* Incluir todos los archivos en la carpeta src */],
   "exclude": [
     "node_modules" /* Excluir node_modules */,
-    "dist" /* Excluir el directorio de salida */
-  ]
+    "dist" /* Excluir el directorio de salida */,
+  ],
 }

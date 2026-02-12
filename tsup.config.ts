@@ -7,4 +7,8 @@ export default defineConfig({
   sourcemap: true, // Genera mapas de origen
   clean: true, // Limpia la carpeta de salida antes de generar
   outDir: "dist", // Carpeta de salida
+
+  splitting: false,
+  target: "es2020",
+  minify: false,
 });
