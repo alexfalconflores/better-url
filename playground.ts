@@ -1,4 +1,4 @@
-import { BetterURL } from "./src/index";
+import { BetterURL } from "./src/BetterUrl";
 
 console.log("--- 🧪 INICIANDO PRUEBAS MANUALES ---");
 

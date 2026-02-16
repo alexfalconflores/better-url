@@ -1,4 +1,4 @@
-import { BetterParams, QueryOptions } from "./BetterParams";
+import { BetterParams, type ParamsQueryOptions } from "./BetterParams";
 import BetterURL from "./BetterUrl";
 
 type Primitive = string | number | boolean;
@@ -97,7 +97,7 @@ export class BetterPath<
   /**
    * ⚙️ Configura opciones de serialización (coma, brackets, etc).
    */
-  config(opts: QueryOptions) {
+  config(opts: ParamsQueryOptions) {
     this._searchParams.config(opts);
     return this;
   }

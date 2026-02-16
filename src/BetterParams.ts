@@ -4,7 +4,7 @@ type QueryValue = Primitive | Primitive[] | null | undefined;
 /**
  * Opciones de configuración para la serialización de parámetros.
  */
-export interface QueryOptions {
+export interface ParamsQueryOptions {
   /**
    * Define cómo se serializan los arrays en la query string.
    * @example
@@ -25,7 +25,7 @@ export interface QueryOptions {
  * - Métodos inmutables y utilidades de UI (Toggle, Pick, Omit).
  */
 export class BetterParams extends URLSearchParams {
-  private _options: QueryOptions = { arrayFormat: "repeat" };
+  private _options: ParamsQueryOptions = { arrayFormat: "repeat" };
 
   /**
    * Inicializa los parámetros de búsqueda.
@@ -66,7 +66,7 @@ export class BetterParams extends URLSearchParams {
    * ⚙️ Configura opciones de serialización para esta instancia.
    * @param opts Opciones (ej: arrayFormat).
    */
-  config(opts: QueryOptions) {
+  config(opts: ParamsQueryOptions) {
     this._options = { ...this._options, ...opts };
     return this;
   }

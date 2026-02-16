@@ -1,7 +1,7 @@
 type Primitive = string | number | boolean;
 type QueryValue = Primitive | Primitive[] | null | undefined;
 
-export interface QueryOptions {
+export interface URLQueryOptions {
   /**
    * Define cómo se serializan los arrays en la query string.
    * @example
@@ -26,7 +26,7 @@ export interface QueryOptions {
 export class BetterURL<
   TQueryParams extends Record<string, QueryValue>,
 > extends URL {
-  private _options: QueryOptions = {
+  private _options: URLQueryOptions = {
     arrayFormat: "repeat",
     skipNull: true,
     skipUndefined: true,
@@ -51,7 +51,7 @@ export class BetterURL<
    * ⚙️ Configura opciones globales para esta instancia.
    * @param opts Opciones de serialización.
    */
-  config(opts: Partial<QueryOptions>) {
+  config(opts: Partial<URLQueryOptions>) {
     this._options = { ...this._options, ...opts };
     return this;
   }
