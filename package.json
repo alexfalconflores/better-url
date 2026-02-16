@@ -1,6 +1,6 @@
 {
   "name": "@alexfalconflores/better-url",
-  "version": "1.0.5",
+  "version": "2.0.0",
   "description": "Extension of the URL object with a fluent API (Fluent API) that allows to build URLs in a chained and readable way.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
